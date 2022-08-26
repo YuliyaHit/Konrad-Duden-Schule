@@ -775,18 +775,25 @@ body {
         font-size: 18px;
     }
 
-        .contacts {
-            background-position: 50% 0;
-        }
-
-
-  }
-
-
-
+    .contacts {
+        background-position: 50% 0;
+    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 376px) {
+    .box    {
+        width: 280px;
+    }
+
+    .slider-img {
+        height: 350px;
+    }
+
+    .contacts__wrapper_col2 {
+        padding-bottom: 50px;
+    }
+
+
 
 }
 
