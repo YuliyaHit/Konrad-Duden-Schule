@@ -721,6 +721,9 @@ body {
         flex-basis: 90%;
     }
 
+    .about {
+        min-height: 100vh;
+    }
 
     .speakers__list {
         justify-content: center;
