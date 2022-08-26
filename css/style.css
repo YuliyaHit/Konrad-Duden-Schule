@@ -551,13 +551,15 @@ body {
     line-height: 1.35em;
 }
 
-.contact__item_info {
+.contact__item_info, .contact__item_info a  {
     font-family: 'Rubik', sans-serif;
     color: black;
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 15px;
+    text-decoration: none;
 }
+
 
 .fa-brands {
     font-size: 40px;
@@ -622,7 +624,7 @@ body {
         font-size: 24px;
     }
 
-    .contact__item_info {
+    .contact__item_info, .contact__item_info a {
         font-size: 20px;
     }
 }
@@ -695,7 +697,7 @@ body {
         font-size: 20px;
     }
 
-    .contact__item_info {
+    .contact__item_info, .contact__item_info a {
         font-size: 16px;
         margin-bottom: 10px;
     }
@@ -729,6 +731,14 @@ body {
         margin-bottom: 40px;
     }
 
+    .item__description {
+        font-size: 18px;
+    }
+
+    .item__firstname {
+        font-size: 20px;
+    }
+
     .logo {
         margin-bottom: 30px;
     }
@@ -744,6 +754,25 @@ body {
     .preferense__subtitle, .preferense__text, .description {
         font-size: 18px;
     }
+
+    .box    {
+        width: 300px;
+    }
+
+    .slider-img {
+        height: 370px;
+    }
+
+    .contacts__wrapper_col1 .logo {
+        margin-bottom: 20px;
+    }
+
+    .contacts__wrapper_col1 {
+        margin-bottom: 50px;
+    }
+
+
+
 
   }
 
