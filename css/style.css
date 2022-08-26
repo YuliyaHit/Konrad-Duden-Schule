@@ -1,0 +1,579 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+/*секция1*/
+
+.section__wrapper {
+    width: 73%;
+    margin: 0 auto;
+}
+.start {
+    background: url("../фон_главная.png") no-repeat;
+    background-size: cover;
+}
+
+.start__wrp {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.start__wrp_2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.start__title {
+    font-size: 115px;
+    font-weight: 500;
+    line-height: 120px;
+    color: #ffe6cd;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.school__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.school__title{
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.school__title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffe6cd;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.school__title.active, .info__text.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.btn-free {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 ;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    width: 280px;
+    border-radius: 25px;
+    background-color: black;
+    text-align: center;
+    color: #ffe6cd;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    border: 2px solid transparent;
+}
+
+
+.btn-free:hover {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+/*2 секция*/
+
+.preferense {
+    background-color: #ffe6cd;
+    box-sizing: border-box;
+    padding-top: 80px;
+    height: 100vh;
+    margin: 0;
+}
+
+.info__discription {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    line-height: 1.35em;
+    margin: 0 0 10px 0;
+    color: #ff8345;
+}
+.preferense__subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+
+}
+
+.preferense__title {
+    font-size: 26px;
+    color: #ff8345;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1.35em;
+    font-weight: 400;
+    transform: translate(0px, -4px);
+}
+
+.preferense__text {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5em;
+    font-size: 20px;
+    margin: 0;
+}
+
+.preferenses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.preferense__item {
+    flex-basis:45%;
+    margin-bottom: 50px;
+    border-left: 3px solid #ff8345;
+    padding-left: 20px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.preferense__item.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+/*секция 2 слайдер*/
+.about {
+    background-color: #ffe6cd;
+    box-sizing: border-box;
+    padding-top: 80px;
+    height: 100vh;
+    margin: 0;
+}
+
+.about__wrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 70px;
+}
+
+.logo {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 75px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.about__wrp .logo {
+    flex-basis: 30%;
+}
+
+.info__text {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    font-size: 26px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+
+
+.about__info, .offers__info {
+    flex-basis: 70%;
+}
+
+.slider {
+    position: relative;
+}
+
+.box    {
+    position: relative;
+    width: 280px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 25px;
+}
+
+.slider-img {
+    height: 350px;
+    position: relative;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.slider__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff8345;
+    min-height: 50px;
+    padding: 0 10px;
+}
+
+.footer__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffe6cd;
+}
+
+.btn__more {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width: 120px;
+    border: #ffe6cd 1px solid;
+    border-radius: 25px;
+    background-color: transparent;
+    text-align: center;
+    color: #ffe6cd;
+    transition: all 0.5s ease 0s;
+}
+
+.btn__more:hover {
+    border: none;
+    background-color: #000;
+    transition: all 0.5s ease 0s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.box__price {
+    display: none;
+    position: relative;
+    background: url("../фон_подвал.png") no-repeat;
+    transition: all 0.5s ease 0s;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: fade 0.6s ;
+}
+
+.close__btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.close__btn:before, .close__btn:after {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    top: 15px;
+    right: 0px;
+    width: 26px;
+    height: 4px;
+    background: #000;
+}
+
+.close__btn:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close__btn:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/*.first_line, .second_line {*/
+/*    width: 25px;*/
+/*    height: 3px;*/
+/*    position: absolute;*/
+/*    background-color: #000;*/
+/*    right: 20px;*/
+/*    top: 30px*/
+/*}*/
+
+/*.first_line {*/
+/*transform: rotate(45deg);*/
+/*}*/
+
+/*.second_line {*/
+/*transform: rotate(-45deg);*/
+/*}*/
+
+
+
+
+
+/*секция 3*/
+.offers {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.offers__header {
+    margin-bottom: 70px;
+}
+.offers__header .logo {
+    color: #ffe6cd;
+    flex-basis: 40%;
+}
+
+.offers-list, .offers__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col-1, .col-2 {
+    flex-basis: 40%;
+}
+.offer__item {
+    margin-bottom: 50px;
+}
+
+.offer__title {
+    color: #ff8345;
+    line-height: 1.35em;
+    font-size: 26px;
+    margin: 0 0 10px 0;
+}
+
+.description {
+    color: #ffe6cd;
+    font-size: 20px;
+    line-height: 1.35em;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.price__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 80%;
+    color: #ffe6cd;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 0;
+}
+
+.price__group-info {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.price__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #ffe6cd;
+    margin-bottom: 20px;
+}
+
+.box__price_btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 ;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width: 120px;
+    border-radius: 25px;
+    background-color: black;
+    text-align: center;
+    color: #ffe6cd;
+    transition: all 0.5s ease 0s;
+    border: 2px solid transparent;
+    align-self: center;
+}
+
+.box__price_btn:hover {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+
+
+
+
+
+/*секция 4*/
+
+.speakers {
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.speakers__title {
+    color: #ffe6cd;
+    font-size: 48px;
+    line-height: 0.95em;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.speakers__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+}
+
+.item__photo {
+    background-color: red;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.item__photo img {
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    object-fit: cover;
+}
+
+
+.item__firstname {
+    color: #ff8345;
+    font-size: 20px;
+    line-height: 1.35em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.item__description {
+    color: #ffe6cd;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 1.35em;
+    margin: 0;
+}
+
+.contacts {
+    height: 100vh;
+    background: url("../фон_подвал.png") no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__wrapper_col1 {
+    flex-basis: 35%;
+}
+
+.contacts__wrapper_col1 .logo {
+    color: #ffe6cd;
+    margin-bottom: 50px;
+}
+
+.contacts__title {
+    font-family: 'Rubik', sans-serif;
+    color: #ffe6cd;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contact__item {
+    color: #ffe6cd;
+    font-size: 26px;
+    line-height: 1.35em;
+}
+
+.contact__item_info {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: #000;
+    transition: all 0.5s ease 0s;
+}
+
+.fa-brands:hover {
+    color: #ffe6cd;
+}
+
+@media (max-width: 995px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 540px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
