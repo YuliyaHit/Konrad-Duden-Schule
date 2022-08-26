@@ -398,7 +398,7 @@ body {
     margin-top: 50px;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 18px;
     padding-top: 0;
 }
@@ -775,6 +775,9 @@ body {
         font-size: 18px;
     }
 
+        .contacts {
+            background-position: 50% 0;
+        }
 
 
   }
