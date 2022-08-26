@@ -771,6 +771,9 @@ body {
         margin-bottom: 50px;
     }
 
+    .item__description {
+        font-size: 18px;
+    }
 
 
 
