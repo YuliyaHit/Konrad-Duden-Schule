@@ -19,8 +19,7 @@ body {
 }
 
 .start__wrp {
-    min-height: 50vh;
-    max-height: 800px;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -419,8 +418,7 @@ body {
 
 /*секция 3*/
 .offers {
-    min-height: 50vh;
-    max-height: 800px;
+    min-height: 100vh;
     box-sizing: border-box;
     background-color: black;
     padding-top: 80px;
@@ -535,8 +533,7 @@ body {
 /*секция 4*/
 
 .speakers {
-    min-height: 50vh;
-    max-height: 800px;
+    min-height: 100vh;
     background-color: black;
     margin: 0;
     padding: 70px 0;
@@ -600,8 +597,7 @@ body {
 }
 
 .contacts {
-    min-height: 50vh;
-    max-height: 800px;
+    min-height: 100vh;
     background: url("../фон_подвал.png") no-repeat;
     background-size: cover;
     margin: 0;
@@ -655,30 +651,6 @@ body {
 .fa-brands:hover {
     color: #ffe6cd;
 }
-
-
-@media (max-width: 1441px) {
-    .start__wrp {
-        min-height: 100vh;
-        max-height: none;
-    }
-
-    .offers {
-        min-height: 100vh;
-        max-height: none;
-    }
-
-    .speakers {
-        min-height: 100vh;
-        max-height: none;
-    }
-
-    .contacts {
-        min-height: 100vh;
-        max-height: none;
-    }
-
-
 }
 
 
