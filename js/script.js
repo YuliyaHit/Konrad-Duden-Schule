@@ -80,6 +80,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		target.classList.add('language_active');
 	}));
 
+
+
+	console.log(document.documentElement.clientHeight);
 });
 
 
