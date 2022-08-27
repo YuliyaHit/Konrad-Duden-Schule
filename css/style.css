@@ -353,7 +353,7 @@ body {
 .box__price {
     display: none;
     position: relative;
-    background: url("../фон_подвал.png") no-repeat;
+    background: url("../фон_подвал_телефон.png") no-repeat;
     transition: all 0.5s ease 0s;
     background-size: cover;
     width: 100%;
@@ -651,7 +651,7 @@ body {
 .fa-brands:hover {
     color: #ffe6cd;
 }
-}
+
 
 
 @media (max-width: 1140px) {
@@ -788,6 +788,12 @@ body {
 }
 
 @media (max-width: 540px) {
+
+    .start {
+        background: url("../фон_для_телефона.png") no-repeat;
+        background-size: cover;
+    }
+
     .start__wrp_2 {
         align-items: center;
         flex-direction: column;
@@ -864,8 +870,10 @@ body {
     }
 
     .contacts {
-        background-position: 50% 0;
+        background: url(../фон_подвал_телефон.png) no-repeat;
+        background-size: cover;
     }
+
 }
 
 @media (max-width: 376px) {
