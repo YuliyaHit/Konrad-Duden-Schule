@@ -5,6 +5,7 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
+
 /*секция1*/
 
 .section__wrapper {
@@ -541,6 +542,7 @@ body {
     padding: 70px 0;
     box-sizing: border-box;
 }
+
 .speakers__title {
     color: #ffe6cd;
     font-size: 48px;
@@ -653,6 +655,28 @@ body {
 .fa-brands:hover {
     color: #ffe6cd;
 }
+
+
+@media (max-width: 1441px) {
+    .start__wrp {
+        max-height: none;
+    }
+
+    .offers {
+        max-height: none;
+    }
+
+    .speakers {
+        max-height: none;
+    }
+
+    .contacts {
+        max-height: none;
+    }
+
+
+}
+
 
 @media (max-width: 1140px) {
 
