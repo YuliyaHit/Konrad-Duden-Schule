@@ -72,6 +72,14 @@ document.addEventListener("DOMContentLoaded", () => {
 		boxPrice.style.display = 'none';
 	}));
 
+	//для выбора языка
+	let languages = document.querySelectorAll('.language__item');
+	languages.forEach(item => item.addEventListener('click', (e)=> {
+		let target = e.target;
+		languages.forEach(item=>item.classList.remove('language_active'));
+		target.classList.add('language_active');
+	}));
+
 });
 
 
