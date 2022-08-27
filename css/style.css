@@ -204,7 +204,7 @@ body {
 }
 
 .language__item {
-    height: 56px;
+    padding: 15px;
     width: 200px;
     background-color: black;
     color: #ffe6cd;
@@ -803,10 +803,13 @@ body {
     }
 
     .languages {
-
         width: 90%;
        flex-direction: column;
         justify-content: space-between;
+    }
+
+    .language__item {
+        margin-bottom: 10px;
     }
 
     .speakers__list {
@@ -872,6 +875,13 @@ body {
 
     .contacts__wrapper_col2 {
         padding-bottom: 50px;
+    }
+
+    .preferense__subtitle, .preferense__text, .description {
+        font-size: 16px;
+    }
+    .preferense__title, .offer__title {
+        font-size: 18px;
     }
 
 }
