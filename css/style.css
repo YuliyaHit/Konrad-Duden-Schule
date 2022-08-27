@@ -156,9 +156,10 @@ body {
 #select-language {
     display: block;
     outline: none;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Rubik', sans-serif;
-    background: transparent;
+    text-transform: uppercase;
+    width: 300px;
     text-align: center;
     padding: 15px;
     box-sizing: border-box;
@@ -168,7 +169,7 @@ body {
     color: #ffe6cd;
     /*border: 3px solid #ff8345;*/
     box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
-    border-radius: .5em;
+    border-radius: 25px;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
