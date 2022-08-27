@@ -80,9 +80,22 @@ document.addEventListener("DOMContentLoaded", () => {
 		target.classList.add('language_active');
 	}));
 
+	//для развертывания описания
+	let arrow = document.querySelectorAll('.fa-chevron-down');
+		arrow.forEach((item) => item.addEventListener('click', (e) => {
+			let target = e.target;
+			target.nextElementSibling.style.display = "flex";
+			target.style.display = "none";
+			let arrowUp = document.querySelectorAll('.fa-chevron-up');
+			arrowUp.forEach(item=>item.addEventListener('click', (e) => {
+				let target = e.target;
+				let targetParent = target.parentElement;
+				targetParent.previousElementSibling.style.display = "block";
+				targetParent.style.display = "none";
+			}));
+		}));
 
 
-	console.log(document.documentElement.clientHeight);
 });
 
 
