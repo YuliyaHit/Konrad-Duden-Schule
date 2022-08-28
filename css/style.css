@@ -562,11 +562,19 @@ body {
 }
 
 .item__description_continue {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeInFromNone 3s ease-in-out;
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
     padding-top: 15px;
+
+}
+
+.description_hide {
+    max-height: 0;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
 .description_continue {
