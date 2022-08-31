@@ -5,7 +5,6 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
-
 /*секция1*/
 
 .section__wrapper {
@@ -13,8 +12,9 @@ body {
     margin: 0 auto;
     max-width: 1320px;
 }
+
 .start {
-    background: url("../фон_главная.png") no-repeat;
+    background: url("../images/main_bg.png") no-repeat;
     background-size: cover;
 }
 
@@ -52,6 +52,7 @@ body {
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
+
 .school__title {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -90,6 +91,7 @@ body {
     color: #000;
     border: 2px solid #000;
 }
+
 /*2 секция*/
 
 .preferense {
@@ -110,7 +112,6 @@ body {
 .preferense__subtitle {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-
 }
 
 .preferense__title {
@@ -151,40 +152,6 @@ body {
     opacity: 1;
 }
 
-
-/*секция 2 слайдер*/
-
-/*#select-language {*/
-/*    display: block;*/
-/*    outline: none;*/
-/*    font-size: 14px;*/
-/*    font-family: 'Rubik', sans-serif;*/
-/*    text-transform: uppercase;*/
-/*    width: 300px;*/
-/*    text-align: center;*/
-/*    padding: 15px;*/
-/*    box-sizing: border-box;*/
-/*    margin: 0 auto;*/
-/*    margin-bottom: 80px;*/
-/*    background: black;*/
-/*    color: #ffe6cd;*/
-/*    !*border: 3px solid #ff8345;*!*/
-/*    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);*/
-/*    border-radius: 25px;*/
-/*    -moz-appearance: none;*/
-/*    -webkit-appearance: none;*/
-/*    appearance: none;*/
-/*}*/
-
-/*.language__item {*/
-/*    background: black;*/
-/*    color: #ffe6cd;*/
-/*}*/
-
-/*.language__item:hover {*/
-/*    background: #ff8345;*/
-/*}*/
-
 .language__offer {
     display: flex;
     flex-direction: column;
@@ -213,7 +180,6 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     transition: all 0.5s ease 0s;
-
 }
 
 .language__item:hover {
@@ -229,7 +195,6 @@ body {
     border: 2px solid #000;
     transition: all 0.5s ease 0s;
 }
-
 
 .about {
     background-color: #ffe6cd;
@@ -271,8 +236,6 @@ body {
     transition: all 0.8s ease 0s;
 }
 
-
-
 .offers__info {
     flex-basis: 70%;
 }
@@ -300,7 +263,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
 
 .slider__footer {
     display: flex;
@@ -353,7 +315,7 @@ body {
 .box__price {
     display: none;
     position: relative;
-    background: url("../фон_подвал_телефон.png") no-repeat;
+    background: url("../images/footer_bg_mobile.png") no-repeat;
     transition: all 0.5s ease 0s;
     background-size: cover;
     width: 100%;
@@ -395,27 +357,6 @@ body {
     transform: rotate(-45deg);
 }
 
-/*.first_line, .second_line {*/
-/*    width: 25px;*/
-/*    height: 3px;*/
-/*    position: absolute;*/
-/*    background-color: #000;*/
-/*    right: 20px;*/
-/*    top: 30px*/
-/*}*/
-
-/*.first_line {*/
-/*transform: rotate(45deg);*/
-/*}*/
-
-/*.second_line {*/
-/*transform: rotate(-45deg);*/
-/*}*/
-
-
-
-
-
 /*секция 3*/
 .offers {
     min-height: 100vh;
@@ -439,12 +380,9 @@ body {
     align-items: flex-start;
 }
 
-
-
 .offers-list {
     flex-wrap: wrap;
 }
-
 
 .offer__item {
     margin-bottom: 50px;
@@ -489,6 +427,7 @@ body {
     color: white;
     margin-bottom: 20px;
 }
+
 .price__row {
     display: flex;
     justify-content: space-between;
@@ -524,11 +463,6 @@ body {
 .grow {
     flex-grow: 1;
 }
-
-
-
-
-
 
 /*секция 4*/
 
@@ -569,7 +503,6 @@ body {
     max-height: 1000px;
     transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
     padding-top: 15px;
-
 }
 
 .description_hide {
@@ -581,60 +514,7 @@ body {
     color: #ffe6cd;
 }
 
-@keyframes fadeInFromNone {
-    0% {
-        display: none;
-        height: 0;
-        opacity: 0;
-    }
-
-    10% {
-        display: block;
-        height: 25px;
-        opacity: 0;
-    }
-
-    20% {
-        height: 50px;
-    }
-
-    30% {
-        height: 75px;
-    }
-
-    40% {
-        height: 100px;
-    }
-
-    50% {
-        height: 125px;
-    }
-
-    60% {
-        height: 150px;
-    }
-
-    85% {
-        height: auto;
-
-    }
-
-    100% {
-        display: block;
-        height: auto;
-        opacity: 1;
-    }
-}
-
-
-/*.list__item:last-child .item__description {*/
-/*    flex-grow: 1;*/
-/*}*/
-
-
-
 .item__photo {
-    /*border: 5px solid #ffe6cd;*/
     border-radius: 50%;
     width: 170px;
     height: 170px;
@@ -648,7 +528,6 @@ body {
     object-position: top;
     object-fit: cover;
 }
-
 
 .item__firstname {
     color: #ff8345;
@@ -670,7 +549,7 @@ body {
 
 .contacts {
     min-height: 100vh;
-    background: url("../фон_подвал.png") no-repeat;
+    background: url("../images/footer_bg.png") no-repeat;
     background-size: cover;
     margin: 0;
     padding-top: 80px;
@@ -713,7 +592,6 @@ body {
     text-decoration: none;
 }
 
-
 .fa-brands {
     font-size: 40px;
     color: #000;
@@ -729,8 +607,6 @@ body {
     margin: 10px auto;
     color: #ff8345;
 }
-
-
 
 @media (max-width: 1140px) {
 
@@ -766,8 +642,6 @@ body {
     .preferense__title, .offer__title {
         font-size: 24px;
     }
-
-
 }
 
 @media (max-width: 996px) {
@@ -790,10 +664,6 @@ body {
     }
 }
 
-
-
-
-
 @media (max-width: 769px) {
     .start__title {
         font-size: 70px;
@@ -813,7 +683,6 @@ body {
     .about__wrp, .offers__header {
         margin-bottom: 60px;
     }
-
 
     .info__discription {
         font-size: 18px;
@@ -868,7 +737,7 @@ body {
 @media (max-width: 540px) {
 
     .start {
-        background: url("../фон_для_телефона.png") no-repeat;
+        background: url("../images/main_bg_mobile.png") no-repeat;
         background-size: cover;
     }
 
@@ -948,10 +817,9 @@ body {
     }
 
     .contacts {
-        background: url(../фон_подвал_телефон.png) no-repeat;
+        background: url("../images/footer_bg_mobile.png") no-repeat;
         background-size: cover;
     }
-
 }
 
 @media (max-width: 376px) {
