@@ -6,6 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+    <title>Duden Schule</title>
+    <meta name="description" content="Konrad Duden Schule - школа иностранных языков в Краснодаре">
+    <meta name="keywords" content="школа иностранных языков в краснодаре, языковая школа краснодар, подготовка к экзаменам по английскому языку, обучение иностранным языкам">
+
+    <meta property="og:url" content="https://www.duden-schule.ru/">
+    <meta property="og:title" content="Duden Schule">
+    <meta property="og:description" content="Школа иностранных языков в Краснодаре">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://drive.google.com/file/d/1WzAUUwbtfTc2dWh5BfRmPZTsmWtVHkAY/view?usp=sharing">
+    <link rel="canonical" href="https://www.duden-schule.ru/">
+
+
+
     <link rel="icon" href="headicon.png" type="image/png" sizes="128*128">
     <link rel="apple-touch-icon" href="headicon.png" type="image/png" sizes="128*128">
 
@@ -21,7 +35,7 @@
     <script src="js/lightslider.js"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/cede13429c.js" crossorigin="anonymous"></script>
-    <title>Duden Schule</title>
+
 </head>
 <body>
 
@@ -77,187 +91,171 @@
 
 <section class="about">
     <div class="section__wrapper">
-
-<!--        <p>Мы поможем вам освоить английский, немецкий и французский языки </p>-->
-<!--        <select id="select-language">-->
-<!--            <option value="0" class="language__item">Выбери свой иностранный язык</option>-->
-<!--            <option value="Немецкий" class="language__item">Немецкий</option>-->
-<!--            <option value="Английский" class="language__item">Английский</option>-->
-<!--&lt;!&ndash;            <option value="Французский" class="language__item">Французский</option>&ndash;&gt;-->
-<!--        </select>-->
-
         <div class="language__offer">
             <p class="offer__title">Выбери свой иностранный язык</p>
-
             <div class="languages">
-                <button class="language__item">Немецкий</button>
-                <button class="language__item">Английский</button>
-                <button class="language__item">Французский</button>
+                <button class="language__item language_active" data-language = 'german'>Немецкий</button>
+                <button class="language__item"  data-language = 'english'>Английский</button>
+                <button class="language__item"  data-language = 'french'>Французский</button>
             </div>
-
-
         </div>
-
 <!--        box-slider-->
         <div class="slider">
-
-            <ul id="autoWidth" class="cs-hidden">
-                <li class="item-a">
-                    <div class="box">
-                        <div class="slider-img">
-                            <img src="images/children.jpeg" alt="" class="img">
-                        </div>
-                        <div class="slider__footer">
-                            <h3 class="footer__title">Детям</h3>
-                            <button class="btn__more">подробнее</button>
-                        </div>
-
-                        <div class="box__price">
-                            <div class="close__btn"></div>
-                            <div class="price__list">
-                                <div class="price__group-info">Дети 5 лет</div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">индивидуально</div>
-                                    <div class="price__item">700</div>
-                                </div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">группа</div>
-                                    <div class="price__item">500</div>
-                                </div>
-                                <div class="price__group-info">Дети 6-7 лет</div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">индивидуально</div>
-                                    <div class="price__item">800</div>
-                                </div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">группа</div>
-                                    <div class="price__item">600</div>
-                                </div>
-                                <div class="price__group-info grow">занятие 50 минут</div>
-                                <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slider-img">
+                                <img src="images/children.jpeg" alt="" class="img">
                             </div>
-                        </div>
+                            <div class="slider__footer">
+                                <h3 class="footer__title">Детям</h3>
+                                <button class="btn__more">подробнее</button>
+                            </div>
 
-                    </div>
-                </li>
-                <li class="item-b">
-                    <div class="box">
-                        <div class="slider-img">
-                            <img src="images/pupils.jpg" alt="" class="img">
-                        </div>
-                        <div class="slider__footer">
-                            <h3 class="footer__title">Школьникам</h3>
-                            <button class="btn__more">подробнее</button>
-                        </div>
-
-                        <div class="box__price">
-                            <div class="close__btn"></div>
-                            <div class="price__list">
-                                <div class="price__group-info">Школьникам</div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
-                                    <div class="price__item">1000</div>
+                            <div class="box__price">
+                                <div class="close__btn"></div>
+                                <div class="price__list">
+                                    <div class="price__group-info">Дети 5 лет</div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">индивидуально</div>
+                                        <div class="price__item">700</div>
+                                    </div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">группа</div>
+                                        <div class="price__item">500</div>
+                                    </div>
+                                    <div class="price__group-info">Дети 6-7 лет</div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">индивидуально</div>
+                                        <div class="price__item">800</div>
+                                    </div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">группа</div>
+                                        <div class="price__item">600</div>
+                                    </div>
+                                    <div class="price__group-info grow">занятие 50 минут</div>
+                                    <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                                 </div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
-                                    <div class="price__item">800</div>
-                                </div>
-                                <div class="price__group-info grow">занятие 60 минут</div>
-
-                                <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                             </div>
 
                         </div>
-                    </div>
-                </li>
-                <li class="item-c">
-                    <div class="box">
-                        <div class="slider-img">
-                            <img src="images/adults.jpg" alt="" class="img">
-                        </div>
-                        <div class="slider__footer">
-                            <h3 class="footer__title">Взрослым</h3>
-                            <button class="btn__more">подробнее</button>
-                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slider-img">
+                                <img src="images/pupils.jpg" alt="" class="img">
+                            </div>
+                            <div class="slider__footer">
+                                <h3 class="footer__title">Школьникам</h3>
+                                <button class="btn__more">подробнее</button>
+                            </div>
 
-                        <div class="box__price">
-                            <div class="close__btn"></div>
-                            <div class="price__list">
-                                <div class="price__group-info">Взрослым</div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
-                                    <div class="price__item">1000</div>
+                            <div class="box__price">
+                                <div class="close__btn"></div>
+                                <div class="price__list">
+                                    <div class="price__group-info">Школьникам</div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
+                                        <div class="price__item">1000</div>
+                                    </div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
+                                        <div class="price__item">800</div>
+                                    </div>
+                                    <div class="price__group-info grow">занятие 60 минут</div>
+
+                                    <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                                 </div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
-                                    <div class="price__item">800</div>
-                                </div>
-                                <div class="price__group-info grow">занятие 60 минут</div>
-                                <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
+
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="item-d">
-                    <div class="box">
-                        <div class="slider-img">
-                            <img src="images/russian%20exams.jpeg" alt="" class="img">
-                        </div>
-                        <div class="slider__footer">
-                            <h3 class="footer__title">ЕГЭ, ОГЭ</h3>
-                            <button class="btn__more">подробнее</button>
-                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slider-img">
+                                <img src="images/adults.jpg" alt="" class="img">
+                            </div>
+                            <div class="slider__footer">
+                                <h3 class="footer__title">Взрослым</h3>
+                                <button class="btn__more">подробнее</button>
+                            </div>
 
-                        <div class="box__price">
-                            <div class="close__btn"></div>
-                            <div class="price__list">
-                                <div class="price__group-info">Российские экзамены</div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
-                                    <div class="price__item">1000</div>
+                            <div class="box__price">
+                                <div class="close__btn"></div>
+                                <div class="price__list">
+                                    <div class="price__group-info">Взрослым</div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
+                                        <div class="price__item">1000</div>
+                                    </div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
+                                        <div class="price__item">800</div>
+                                    </div>
+                                    <div class="price__group-info grow">занятие 60 минут</div>
+                                    <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                                 </div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
-                                    <div class="price__item">800</div>
-                                </div>
-                                <div class="price__group-info grow">занятие 60 минут</div>
-                                <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="item-e">
-                    <div class="box">
-                        <div class="slider-img">
-                            <img src="images/goethe.jpg" alt="" class="img">
-                        </div>
-                        <div class="slider__footer">
-                            <h3 class="footer__title">Goethe Zertifikat</h3>
-                            <button class="btn__more">подробнее</button>
-                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slider-img">
+                                <img src="images/russian%20exams.jpeg" alt="" class="img">
+                            </div>
+                            <div class="slider__footer">
+                                <h3 class="footer__title">ЕГЭ, ОГЭ</h3>
+                                <button class="btn__more">подробнее</button>
+                            </div>
 
-                        <div class="box__price">
-                            <div class="close__btn"></div>
-                            <div class="price__list">
-                                <div class="price__group-info">Международные экзамены</div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
-                                    <div class="price__item">1000</div>
+                            <div class="box__price">
+                                <div class="close__btn"></div>
+                                <div class="price__list">
+                                    <div class="price__group-info">Российские экзамены</div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
+                                        <div class="price__item">1000</div>
+                                    </div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
+                                        <div class="price__item">800</div>
+                                    </div>
+                                    <div class="price__group-info grow">занятие 60 минут</div>
+                                    <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                                 </div>
-                                <div class="price__row">
-                                    <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
-                                    <div class="price__item">800</div>
-                                </div>
-                                <div class="price__group-info grow">занятие 60 минут</div>
-                                <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
                             </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
+                    <li class="item-e">
+                        <div class="box">
+                            <div class="slider-img">
+                                <img src="images/goethe.jpg" alt="" class="img">
+                            </div>
+                            <div class="slider__footer">
+                                <h3 class="footer__title">Goethe Zertifikat</h3>
+                                <button class="btn__more">подробнее</button>
+                            </div>
 
-            </ul>
+                            <div class="box__price">
+                                <div class="close__btn"></div>
+                                <div class="price__list">
+                                    <div class="price__group-info">Международные экзамены</div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">индивидуально<br>онлайн/оффлайн</div>
+                                        <div class="price__item">1000</div>
+                                    </div>
+                                    <div class="price__row">
+                                        <div class="price__type-lesson">группа<br>онлайн/оффлайн</div>
+                                        <div class="price__item">800</div>
+                                    </div>
+                                    <div class="price__group-info grow">занятие 60 минут</div>
+                                    <a href="https://forms.yandex.ru/cloud/630a3fdf0d26da9314c1733d/" target="_blank" class="box__price_btn">записаться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
         </div>
-
     </div>
 
 </section>
@@ -307,32 +305,37 @@
     <div class="section__wrapper">
     <div class="speakers__title">Наши преподаватели:</div>
         <div class="speakers__list">
-            <div class="list__item">
-                <div class="item__photo"><img src="images/grigory.jpg" alt=""></div>
-                <span class="item__firstname">Григорий Перепелицын</span>
-                <p class="item__description">Преподаватель немецкого языка. Магистр, выпускник программы "Деловой немецкий язык и перевод" Кубанский государственный
-                    университет, выпускник школы Walter Eucken Schule г. Карлсруэ, обладает языковым сертификатом от Goethe Institut на уровень&nbsp;C1.  </p>
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="item__description_continue description_hide">
-                    <p class="description_continue">Работал в международных организациях специалистом по
-                        внешнеэкономической деятельности в Stihl Südwest AG, Lang Immobilien GmbH и переводчиком на
-                        стадионе FISHT в Сочи во время проведения Чемпионата мира по футболу 2018.</p>
-                    <i class="fa-solid fa-chevron-up"></i>
+
+            <!--это немецкие преподы-->
+            <div class="speakers_group fade">
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/grigory.jpg" alt=""></div>
+                    <span class="item__firstname">Григорий Перепелицын</span>
+                    <p class="item__description">Преподаватель немецкого языка. Магистр, выпускник программы "Деловой немецкий язык и перевод" Кубанский государственный
+                        университет, выпускник школы Walter Eucken Schule г. Карлсруэ, обладает языковым сертификатом от Goethe Institut на уровень&nbsp;C1.  </p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue">Работал в международных организациях специалистом по
+                            внешнеэкономической деятельности в Stihl Südwest AG, Lang Immobilien GmbH и переводчиком на
+                            стадионе FISHT в Сочи во время проведения Чемпионата мира по футболу 2018.</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="list__item">
-                <div class="item__photo"><img src="images/anastasiya.png" alt=""></div>
-                <span class="item__firstname">Анастасия Мельникова</span>
-                <p class="item__description">Преподаватель английского языка. Магистр, выпускница программы "Перевод в юридической и экономической сфере" Южный федеральный
-                    университет, участница академического обмена Fulbright Program, языковой сертификат Toefl ibT уровень&nbsp;С1.</p>
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="item__description_continue description_hide">
-                    <p class="description_continue">Работала в США в штате New Jersew, г. Wildwood, в школе Margaret Mace Public School в рамках академического обмена,
-                        в г. Краснодар работала в KLAAS KGaA mbH в качестве преподавателя английского языка.</p>
-                    <i class="fa-solid fa-chevron-up"></i>
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/anastasiya.png" alt=""></div>
+                    <span class="item__firstname">Полина Ургант</span>
+                    <p class="item__description">Преподаватель немецкого языка. Бакалавр, студентка бакалаврской
+                        программы "Зарубежная филология" факультет романо-германской филологии Кубанский
+                        государственный университет, обладает языковым сертификатом от Goethe Institut B2.</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue"> Участвовала в волонтерских и академических программах
+                            обмена в рамках сотрудничества городов-побратимов Краснодар Карлсруэ, обладает
+                            большим опытом работы в языковых школах с детьми и подростками.</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="list__item">
+                <div class="list__item">
                 <div class="item__photo"><img src="images/yuliya.png" alt=""></div>
                 <span class="item__firstname">Юлия Хить</span>
                 <p class="item__description">Учитель начальных классов. Магистр, выпускница программы "Педагогика и методика начального образования" Кубанский государственный
@@ -341,10 +344,104 @@
                 <i class="fa-solid fa-chevron-down"></i>
                 <div class="item__description_continue description_hide">
                     <p class="description_continue">Работала в Школе МБОУ СОШ лицей № 90 в качестве учителя начальных классов, была отмечена руководством школы и
-                        местной администрацией за активную внеклассную деятельность в воспитании учеников</p>
+                        местной администрацией за активную внеклассную деятельность в воспитании учеников.</p>
                     <i class="fa-solid fa-chevron-up"></i>
                 </div>
             </div>
+            </div>
+
+            <!--это английские преподы-->
+            <div class="speakers_group fade">
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/namoja.jpeg" alt=""></div>
+                    <span class="item__firstname">Намоойа Мушанга</span>
+                    <p class="item__description">Преподаватель английского языка. Бакалавр, студентка программы
+                        "Педагогики и психологии" Кубанский государственный
+                       аграрный университет, носитель английского языка, обладает сертификатом (TORFL)
+                        русский язык как иностранный нa уровне С1.</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue">Работала в Детском саду № 213 и в школе МБОУ
+                            СОШ лицей № 90 в качестве учителя английского языка. В Konrad Duden Schule ведет группы со
+                            взрослыми, готовит к успешной сдаче международных экзаменов и к собеседованиям на
+                            работу.</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/weronika.jpeg" alt=""></div>
+                    <span class="item__firstname">Вероника Самбур</span>
+                    <p class="item__description">Преподаватель английского языка. Бакалавр, выпускница программы
+                        "Перевод в юридической и экономической сфере" Южный федеральный
+                        университет г. Ростров-на-Дону, обладает языковым сертификатом CELTA на уровене&nbsp;B2.</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue"> Работала в качестве частного репетитора на дому и в формате
+                            онлайн, обладает богатым опытом работы с детьми и подростками, готовит к успешной сдаче
+                            российских и международных экзаменов.</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="list__item">
+                <div class="item__photo"><img src="images/yuliya.png" alt=""></div>
+                <span class="item__firstname">Юлия Хить</span>
+                <p class="item__description">Учитель начальных классов. Магистр, выпускница программы "Педагогика и методика начального образования" Кубанский государственный
+                    университет, участница академического обмена программы Hanz Hase от международного языкового
+                    центра имени Гёте. </p>
+                <i class="fa-solid fa-chevron-down"></i>
+                <div class="item__description_continue description_hide">
+                    <p class="description_continue">Работала в Школе МБОУ СОШ лицей № 90 в качестве учителя начальных классов, была отмечена руководством школы и
+                        местной администрацией за активную внеклассную деятельность в воспитании учеников.</p>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+            </div>
+            </div>
+
+            <!--это французские преподы-->
+            <div class="speakers_group fade">
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/walentina.jpg" alt=""></div>
+                    <span class="item__firstname">Валентина Острицова</span>
+                    <p class="item__description">Преподаватель французского языка. Специалитет, выпускница программы
+                        "Кросс-культурная коммуникация в международной академической среде" Дальневосточный федеральный университет,
+                        обладает языковым сертификатом DALF на уровень&nbsp;C1.  </p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue">Работала в Дальневосточном федеральном университете на кафедре "Фундаментальная
+                            и прикладная лингвистика (английский и французский языки)" в качестве преподавателя
+                            французского языка.</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/irina.jpg" alt=""></div>
+                    <span class="item__firstname">Ирина Габриэль</span>
+                    <p class="item__description">Преподаватель французского языка. Специалитет, выпускница программы
+                        "Педагогическое образование" факультет романо-германской филологии
+                        Кубанский государственный университет, обладает языковым сертификатом DALF на уровень&nbsp;B2.</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue">Работала в качестве частного репетитора на дому и в формате
+                            онлайн, обладает богатым опытом работы с детьми и подростками разного возраста, готовит к
+                            российским государственным экзаменам.</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="item__photo"><img src="images/yuliya.png" alt=""></div>
+                    <span class="item__firstname">Кристина французская</span>
+                    <p class="item__description">Учитель начальных классов. Магистр, выпускница программы "Педагогика и методика начального образования" Кубанский государственный
+                        университет, участница академического обмена программы Hanz Hase от международного языкового
+                        центра имени Гёте. </p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="item__description_continue description_hide">
+                        <p class="description_continue">Работала в Школе МБОУ СОШ лицей № 90 в качестве учителя начальных классов, была отмечена руководством школы и
+                            местной администрацией за активную внеклассную деятельность в воспитании учеников</p>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -359,7 +456,7 @@
             <div class="contacts__wrapper_col2">
                 <div class="contacts__title">Наши контакты</div>
                 <div class="contact__item">Наш адрес</div>
-                <div class="contact__item_info">Краснодар, Бульварное кольцо 17</div>
+                <div class="contact__item_info">Краснодар, Коммунаров 217А</div>
                 <div class="contact__item">Электронная почта</div>
                 <div class="contact__item_info">duden.schule@mail.ru</div>
                 <div class="contact__item_info">duden.schule@gmail.com</div>
@@ -381,85 +478,3 @@
 
 </body>
 </html>
-
-<!--            <ul id="autoWidth" class="cs-hidden">-->
-<!--                <li class="item-a">-->
-<!--                    <div class="box">-->
-<!--                        <div class="slider-img">-->
-<!--                            <img src="images/photo1.jpg" alt="" class="img">-->
-<!--                            &lt;!&ndash;                    overlay&ndash;&gt;-->
-<!--                            <div class="overlay">-->
-<!--                                <p class="overlay__text">-->
-<!--                                    В нашей школе вы найдете все для того, чтобы ваши цели и мечты реализовались-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="item-b">-->
-<!--                    <div class="box">-->
-<!--                        <div class="slider-img">-->
-<!--                            <img src="images/photo2.jpg" alt="" class="img">-->
-<!--                            &lt;!&ndash;                    overlay&ndash;&gt;-->
-<!--                            <div class="overlay">-->
-<!--                                <p class="overlay__text">-->
-<!--                                    В нашей школе вы найдете все для того, чтобы ваши цели и мечты реализовались-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="item-c">-->
-<!--                    <div class="box">-->
-<!--                        <div class="slider-img">-->
-<!--                            <img src="images/photo3.jpeg" alt="" class="img">-->
-<!--                            &lt;!&ndash;                    overlay&ndash;&gt;-->
-<!--                            <div class="overlay">-->
-<!--                                <p class="overlay__text">-->
-<!--                                    В нашей школе вы найдете все для того, чтобы ваши цели и мечты реализовались-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="item-d">-->
-<!--                    <div class="box">-->
-<!--                        <div class="slider-img">-->
-<!--                            <img src="images/photo4.jpg" alt="" class="img">-->
-<!--                            &lt;!&ndash;                    overlay&ndash;&gt;-->
-<!--                            <div class="overlay">-->
-<!--                                <p class="overlay__text">-->
-<!--                                    В нашей школе вы найдете все для того, чтобы ваши цели и мечты реализовались-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="item-e">-->
-<!--                    <div class="box">-->
-<!--                        <div class="slider-img">-->
-<!--                            <img src="images/photo5.jpg" alt="" class="img">-->
-<!--                            &lt;!&ndash;                    overlay&ndash;&gt;-->
-<!--                            <div class="overlay">-->
-<!--                                <p class="overlay__text">-->
-<!--                                    В нашей школе вы найдете все для того, чтобы ваши цели и мечты реализовались-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="item-f">-->
-<!--                    <div class="box">-->
-<!--                        <div class="slider-img">-->
-<!--                            <img src="images/photo6.jpg" alt="" class="img">-->
-<!--                            &lt;!&ndash;                    overlay&ndash;&gt;-->
-<!--                            <div class="overlay">-->
-<!--                                <p class="overlay__text">-->
-<!--                                    В нашей школе вы найдете все для того, чтобы ваши цели и мечты реализовались-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
-
-<!--            </ul>-->

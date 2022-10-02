@@ -488,6 +488,19 @@ body {
     justify-content: space-between;
 }
 
+.speakers_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide {
+    display:none;
+}
+
+.show {
+    display: flex;
+}
+
 .list__item {
     display: flex;
     flex-direction: column;
@@ -751,7 +764,7 @@ body {
         padding-left: 0;
     }
 
-    .about__wrp, .offers__header, .speakers__list, .contacts__wrapper {
+    .about__wrp, .offers__header, .speakers_group, .contacts__wrapper {
         flex-wrap: wrap;
     }
 
@@ -769,7 +782,7 @@ body {
         margin-bottom: 5px;
     }
 
-    .speakers__list {
+    .speakers_group {
         justify-content: center;
     }
     .list__item {
